@@ -14,6 +14,6 @@ APPSRV1, APPSRV2 and APPSRV3 are all on the same VLAN. APPSRV1 and APPSRV2 are i
 Here's where Microsegmentation comes in. Using your Microsegmentation product of choice, you apply a policy to APPSRV1 and APPSRV2, while applying a seperate policy to APPSRV3. These policies limit network traffic to and from the servers and this all happens from a centralized location. The policy set on APPSRV3 could disallow network traffic to and from APPSRV1 and APPSRV2 even though all three machines are on the same VLAN. This has the benefit of scaling very well since it's policy driven. Another benefit of this is that because workloads can be anywhere (cloud or on-premise) these policies will follow that server anywhere it goes thanks to the integration features most (if not all) Microsegmentation products have with cloud providers.
 
 If you're looking to get started, there are multiple vendors available like:
-* [VMware NSX](https://www.vmware.com/topics/glossary/content/micro-segmentation)
+* [VMware NSX](https://www.vmware.com/products/nsx.html)
 * [Cisco Secure Workload](https://www.cisco.com/c/en/us/products/security/tetration/index.html)
 * [Palo Alto Networks Virtual NGFW](https://www.paloaltonetworks.com/prisma/vm-series)
